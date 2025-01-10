@@ -5,6 +5,9 @@
 }
 
 body {
+  /* margin: 20px auto 0px auto; */
+  margin-left: auto;
+  margin-right: auto;
   background-color: rgb(245, 245, 245);
 }
 
@@ -66,3 +69,17 @@ body {
 }
 
 /* ? Sharing Fonts Ends*/
+
+/* ? Sharing styles start */
+.common-width {
+  width: 1280px;
+  border: 1px solid;
+}
+
+/* ? Sharing styles ends */
+
+.banner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
