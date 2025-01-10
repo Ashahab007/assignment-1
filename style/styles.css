@@ -12,9 +12,6 @@ body {
   align-items: center;
 }
 
-main {
-}
-
 /* Sharing styles */
 
 /* ? Sharing Fonts Starts*/
@@ -82,6 +79,17 @@ main {
 .bg-green {
   background-color: #c6e4d6;
 }
+
+.subtitle {
+  color: hsla(0, 0%, 5%, 0.501);
+  line-height: 24px;
+}
+
+.main-title {
+  color: #0e0e0e;
+  font-size: 40px;
+}
+
 /* ? Sharing styles ends */
 
 /* ? style banner section start */
@@ -97,13 +105,9 @@ main {
   width: 600px;
 }
 
-.banner {
+.banner-section {
   border-radius: 24px;
   margin-top: 20px;
-}
-
-.banner-subtitle {
-  color: hsla(0, 0%, 5%, 0.501);
 }
 
 .banner-title {
@@ -131,3 +135,91 @@ main {
   height: 100%;
 }
 /* ? styles banner section end */
+
+/* ? styling vision future section start */
+
+.vision-future-section {
+  margin-top: 80px;
+}
+
+.vision-future-section .subtitle {
+  margin-top: 24px;
+}
+
+.card-container {
+  margin-top: 30px;
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+}
+
+.card {
+  width: calc(100% / 3);
+}
+
+.card-title {
+  color: hsla(0, 0%, 5%, 0.803);
+  font-size: 20px;
+  margin-top: 24px;
+}
+
+.card-btn {
+  width: 122px;
+  height: 41px;
+  border-radius: 8px;
+  border: none;
+  color: #ffffff;
+}
+
+.card-container .btn-1 {
+  background-color: #5490f5;
+  margin-top: 20px;
+}
+
+.card-container .btn-2 {
+  background-color: #09a15c;
+  margin-top: 42px;
+}
+
+.card-container .btn-3 {
+  background-color: #ffc239;
+  margin-top: 42px;
+}
+
+.card-1 {
+  background-color: rgba(84, 143, 245, 0.203);
+  border-radius: 16px;
+  padding: 50px 25px;
+}
+
+.card-2 {
+  background-color: #c6e4d6;
+  border-radius: 16px;
+  padding: 50px 25px;
+}
+
+.card-3 {
+  background-color: #f7ebcf;
+  border-radius: 16px;
+  padding: 50px 25px;
+}
+
+.quotation-name {
+  color: hsla(0, 0%, 5%, 0.803);
+  font-size: 20px;
+}
+
+.quotes {
+  margin-top: 30px;
+}
+
+.quotation {
+  background-image: url("../assets/quote-bg.png");
+  background-repeat: no-repeat;
+}
+
+.quotation-name {
+  margin-top: 12px;
+}
+
+/* ? styling vision future section end */
