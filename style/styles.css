@@ -215,11 +215,18 @@ body {
 
 .quotation {
   background-image: url("../assets/quote-bg.png");
+  background-position: left 5px top 30px;
   background-repeat: no-repeat;
+  padding: 40px 10px;
 }
 
 .quotation-name {
-  margin-top: 12px;
+  /* margin-top: 12px; */
+  padding: 0px 10px;
+}
+
+.quotation-designation {
+  padding: 0px 10px;
 }
 
 /* ? styling vision future section end */
