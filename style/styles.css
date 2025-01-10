@@ -207,6 +207,7 @@ body {
 .quotation-name {
   color: hsla(0, 0%, 5%, 0.803);
   font-size: 20px;
+  margin-top: 20px;
 }
 
 .quotes {
@@ -215,17 +216,20 @@ body {
 
 .quotation {
   background-image: url("../assets/quote-bg.png");
-  background-position: left 5px top 30px;
+  background-position: left 25px top 20px;
   background-repeat: no-repeat;
+  border: 0.5px solid hsla(0, 0%, 5%, 0.162);
+  border-radius: 16px;
+  background-color: #ffffff;
   padding: 40px 30px;
 }
 
 .quotation-name {
-  padding: 0px 30px;
+  /* padding: 0px 30px; */
 }
 
 .quotation-designation {
-  padding: 0px 30px;
+  /* padding: 0px 30px; */
 }
 
 /* ? styling vision future section end */
@@ -313,12 +317,9 @@ body {
   border-radius: 16px;
   border: 0.5px solid hsla(0, 0%, 5%, 0.162);
   font-size: 40px;
-  /* text-align: center; */
   display: flex;
   justify-content: center;
   align-items: center;
-  /* margin-top: 40px; */
-  /* border: 1px solid; */
 }
 
 .donate-card-container {
