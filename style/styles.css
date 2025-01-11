@@ -275,14 +275,7 @@ body {
   margin-top: 30px;
 }
 
-.recent-news-card-image {
-  /* width: 600px;
-  height: 306px; */
-}
-
 .recent-news-card-image img {
-  /* width: 100%;
-  height: 100%; */
   border-radius: 24px;
 }
 
@@ -356,6 +349,10 @@ body {
   color: rgba(14, 14, 14, 0.328);
 }
 
+.donate-card-container h1:nth-child(2) {
+  background-color: #c6e4d6;
+}
+
 /* ? styling donate section ends */
 
 /* ? styling newsletter section start */
@@ -364,6 +361,7 @@ body {
   margin-top: 80px;
   height: 300px;
   border-radius: 24px;
+  height: 400px;
 }
 
 .newsletter-container {
@@ -371,7 +369,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 80px;
+  padding-top: 100px;
 }
 
 .newsletter-container .paragraph {
@@ -384,7 +382,7 @@ body {
 }
 .subscribe-container input[type="button"] {
   width: 122px;
-  height: 41px;
+  height: 56px;
   border-top-right-radius: 8px;
   border-bottom-right-radius: 8px;
   border: none;
@@ -394,6 +392,7 @@ body {
 
 .subscribe-container input[type="email"] {
   width: 600px;
+  height: 56px;
   border: none;
   border-top-left-radius: 8px;
   border-bottom-left-radius: 8px;
@@ -446,4 +445,4 @@ input[type="button"]:hover,
   background-color: #9986a786;
 }
 
-/* todo: 2.navigation section(optional) 3.Pillars of "Bangladesh 2.0" (optional) 4. Your Opinion Matters table(optional)*/
+/* todo: 2. in Quotes section, correct course designation  3.Pillars of "Bangladesh 2.0" (optional) 4. Your Opinion Matters table(optional)*/
