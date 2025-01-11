@@ -93,6 +93,11 @@ body {
 /* ? Sharing styles ends */
 
 /* ? style banner section start */
+.banner-section {
+  border-radius: 24px;
+  margin-top: 20px;
+}
+
 .banner-container {
   display: flex;
   justify-content: center;
@@ -103,11 +108,6 @@ body {
 
 #banner-text-button {
   width: 600px;
-}
-
-.banner-section {
-  border-radius: 24px;
-  margin-top: 20px;
 }
 
 .banner-title {
@@ -339,3 +339,75 @@ body {
 }
 
 /* ? styling donate section ends */
+
+/* ? styling newsletter section start */
+
+.newsletter-section {
+  margin-top: 80px;
+  height: 300px;
+  border-radius: 24px;
+}
+
+.newsletter-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 80px;
+}
+
+.newsletter-container .paragraph {
+  margin-top: 16px;
+}
+
+.subscribe-container {
+  display: flex;
+  margin-top: 16px;
+}
+.subscribe-container input[type="button"] {
+  width: 122px;
+  height: 41px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border: none;
+  color: #ffffff;
+  background-color: #006a50;
+}
+
+.subscribe-container input[type="email"] {
+  width: 600px;
+  border: none;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  padding-left: 30px;
+}
+
+.subscribe-container input[type="email"]::placeholder {
+  color: rgba(14, 14, 14, 0.328);
+}
+/* ? styling newsletter section ends */
+
+/* ?styling footer section start */
+.footer-section {
+  margin-top: 80px;
+  text-align: center;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+/* ?styling footer section end */
+
+/* Hover button effect */
+
+button:hover,
+input[type="button"]:hover,
+.card-btn:hover,
+.donate-card-container h1:hover {
+  background-color: #9986a786;
+}
+
+/* todo: 1. footer setion 2.navigation section(optional) 3.Pillars of "Bangladesh 2.0" (optional) 4. Your Opinion Matters table(optional)*/
