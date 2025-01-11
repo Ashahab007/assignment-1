@@ -64,6 +64,10 @@ body {
 /* ? Sharing styles ends */
 
 /* ? style nav section start */
+.navigation-section {
+  margin-bottom: 20px;
+}
+
 .nav-container {
   display: flex;
   width: 100%;
@@ -203,10 +207,6 @@ body {
   margin-top: 20px;
 }
 
-.quotes {
-  margin-top: 30px;
-}
-
 .quotation {
   background-image: url("../assets/quote-bg.png");
   background-position: left 25px top 20px;
@@ -215,14 +215,6 @@ body {
   border-radius: 16px;
   background-color: #ffffff;
   padding: 40px 30px;
-}
-
-.quotation-name {
-  /* padding: 0px 30px; */
-}
-
-.quotation-designation {
-  /* padding: 0px 30px; */
 }
 
 /* ? styling vision future section end */
@@ -419,5 +411,3 @@ input[type="button"]:hover,
 .donate-card-container h1:hover {
   background-color: #9986a786;
 }
-
-/* todo: 2. in Quotes section, correct course designation  3.Pillars of "Bangladesh 2.0" (optional) 4. Your Opinion Matters table(optional)*/
