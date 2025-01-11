@@ -389,14 +389,32 @@ body {
 
 /* ?styling footer section start */
 .footer-section {
+  width: 100%;
   margin-top: 80px;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  margin-top: 50px;
+  gap: 32px;
+}
+
+.footer-section h1 {
+  margin-top: 50px;
 }
 
 .footer-icons {
   display: flex;
   justify-content: center;
   gap: 1rem;
+  margin-bottom: 30px;
+}
+
+hr {
+  border-top: 1px solid hsla(0, 0%, 5%, 0.108);
+  text-align: center;
+  width: 1000px;
 }
 
 /* ?styling footer section end */
